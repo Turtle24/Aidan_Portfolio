@@ -53,3 +53,16 @@ Setup an Azure VM to install Hadoop as Windows doesn't have Native IO support th
 - [ ] Load data into tables
 - [ ] Connect Apache Hive to Power BI
 
+## Project 3: COVID-19 Power BI Dashboard
+
+**Project At A Glance:**
+
+Created a quick dashbaord in Power BI with COVID-19 data I had from a group project to display what I could do with Power BI. 
+
+**Technology Used:**
+
+1. Power BI
+
+**Dashboard Screenshot:**
+
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
