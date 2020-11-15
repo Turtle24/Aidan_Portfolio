@@ -1,6 +1,7 @@
 # Aidan_Portfolio
 
 ## Project 1: Spotify Notification App
+[Project Link](https://github.com/Turtle24/Spotify_Notify_App)
 
 **Project At A Glance:**
 
