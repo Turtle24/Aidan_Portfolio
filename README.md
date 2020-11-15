@@ -17,9 +17,9 @@ Created a desktop notification application that sends notifications every 4 hour
 
 **To-Do:**
 
--[x] Pull spotify data
--[x] Call artist data with specific artist 
--[x] Function for reordering the artist data
--[x] Desktop notification loop
--[] Add multiple artists to list & clean up data structures
--[] Only notify when there's a new song 
+- [x] Pull spotify data
+- [x] Call artist data with specific artist 
+- [x] Function for reordering the artist data
+- [x] Desktop notification loop
+- [ ] Add multiple artists to list & clean up data structures
+- [ ] Only notify when there's a new song 
