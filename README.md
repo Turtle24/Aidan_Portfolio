@@ -22,8 +22,7 @@ Created a desktop notification application that sends notifications every 4 hour
 - [x] Call artist data with specific artist 
 - [x] Function for reordering the artist data
 - [x] Desktop notification loop
-- [ ] Add multiple artists to list & clean up data structures
-- [ ] Only notify when there's a new song 
+- [x] Only notify when there's a new song 
 
 ## Project 2: Hadoop Youtube Analysis
 [Project Link](https://github.com/Turtle24/Youtube_Analysis_Hadoop)
