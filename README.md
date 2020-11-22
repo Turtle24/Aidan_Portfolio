@@ -44,23 +44,24 @@ Setup an Azure VM to install Hadoop as Windows doesn't have Native IO support th
 - [x] Setup Azure VM 
 - [x] Install Hadoop on the VM 
 - [x] Configure Hadoop 
-- [ ] Install Apache Pig
-- [ ] Install Apache Hive
-- [ ] Load data into Hadoop
+- [x] Install Apache Pig
+- [x] Install Apache Hive
+- [x] Load data into Hadoop
 - [ ] Explore & transform data with Apache Pig 
 - [ ] Aggregate the data 
 - [ ] Load data into tables
 - [ ] Connect Apache Hive to Power BI
 
-## Project 3: COVID-19 Power BI Dashboard
+## Project 3: Power BI & MicroStrategy Dashboards
 
 **Project At A Glance:**
 
-Created a quick dashbaord in Power BI with COVID-19 data I had from a group project to display what I could do with Power BI. 
+Created a dashbaord in Power BI with COVID-19 data I had from a group project to display what I could do with Power BI. MicroStrategy dashboard from group project.
 
 **Technology Used:**
 
 1. Power BI
+2. MicroStrategy
 
 **Dashboard Screenshot:**
 
