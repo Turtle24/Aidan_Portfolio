@@ -66,7 +66,7 @@ Created a quick dashbaord in Power BI with COVID-19 data I had from a group proj
 
 [Simple PowerBI Dashboard](https://github.com/Turtle24/Aidan_Portfolio/blob/main/images/Power-BI.png)
 
-[MicroStrategy Dashboard](https://github.com/Turtle24/Aidan_Portfolio/blob/main/images/Power-BI.png)
+[MicroStrategy Dashboard](https://github.com/Turtle24/Aidan_Portfolio/blob/main/images/Microstrategy.png)
 
 
 
