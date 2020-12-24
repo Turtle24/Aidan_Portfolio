@@ -1,6 +1,31 @@
 # Aidan_Portfolio
 
-## Project 1: Spotify Notification App
+## Project 1: Picture Filter & Quote Overlay
+[Project Link](https://github.com/Turtle24/Spotify_Notify_App)
+
+**Project At A Glance:**
+
+I wasn't sure what to get my mom for Christmas so I figured I'd create something with some real sentimental value for her. Essentially I pull stoic quotes from a website with beautifulsoup. I then randomize the image, quote and image effect to be used. The image effects are done with opencv and the text overlay is also performed with opencv. The image is then emailed to her via gmail. So once a week at random she will recieve an image via email. 
+
+**Python Modules:**
+
+1. beautifulsoup
+2. json
+3. opencv2
+4. numpy
+5. TextWrapper
+6. email, smtplib, ssl
+
+**To-Do:**
+
+- [x] Scrape quotes from website
+- [x] Create filters 
+- [x] Apply filters and text to image
+- [x] Randomise filters and quotes
+- [x] Create email & randomise
+- [ ] Automate random schedule
+
+## Project 2: Spotify Notification App
 [Project Link](https://github.com/Turtle24/Spotify_Notify_App)
 
 **Project At A Glance:**
@@ -24,35 +49,30 @@ Created a desktop notification application that sends notifications every 4 hour
 - [x] Desktop notification loop
 - [x] Only notify when there's a new song 
 
-## Project 2: Hadoop Youtube Analysis
+## Project 3: Hadoop Stock Market Analysis
 [Project Link](https://github.com/Turtle24/Youtube_Analysis_Hadoop)
 
 **Project At A Glance:**
 
-Setup an Azure VM to install Hadoop as Windows doesn't have Native IO support thus creating a fresh environment for testing is a safer option. The VM needed Java 8 JRE and JDK installed. Hadoop is used with Apache Pig and Apache Hive to analyze and house the data. Finally Power BI is used to visualize the end result.
+The first iteration was using Azure and VMs to run clusters. However, I'm moving the project over to AWS as my Azure credits depleted before I finished the project and I want to use the AWS big data fubctionality instead of running the clusters on VMs. I intend to use AWS RDS with Hive and Amazon S3.  
 
 **Technology Used:**
 
-1. Azure 
-2. Hadoop
-3. Apache Pig
-4. Apache Hive
+1. AWS 
+2. Hive
+3. Hadoop
+4. S3 & RDS
 5. Power BI
 
 **To-Do:**
 
-- [x] Setup Azure VM 
-- [x] Install Hadoop on the VM 
-- [x] Configure Hadoop 
-- [x] Install Apache Pig
-- [x] Install Apache Hive
-- [x] Load data into Hadoop
-- [ ] Explore & transform data with Apache Pig 
-- [ ] Aggregate the data 
-- [ ] Load data into tables
-- [ ] Connect Apache Hive to Power BI
+- [x] Setup AWS RDS
+- [ ] Push data into RDS
+- [ ] Setup EMR
+- [ ] ETL with Euclid 
+- [ ] Connect Power BI
 
-## Project 3: Power BI & MicroStrategy Dashboards
+## Project 4: Power BI & MicroStrategy Dashboards
 
 **Project At A Glance:**
 
