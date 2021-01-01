@@ -1,7 +1,7 @@
 # Aidan_Portfolio
 
 ## Project 1: Picture Filter & Quote Overlay
-[Project Link](https://github.com/Turtle24/Spotify_Notify_App)
+[Project Link](https://github.com/Turtle24/photos_opencv)
 
 **Project At A Glance:**
 
