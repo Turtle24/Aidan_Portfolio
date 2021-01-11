@@ -49,28 +49,28 @@ Created a desktop notification application that sends notifications every 4 hour
 - [x] Desktop notification loop
 - [x] Only notify when there's a new song 
 
-## Project 3: Hadoop Stock Market Analysis
-[Project Link](https://github.com/Turtle24/Youtube_Analysis_Hadoop)
+## Project 3: Custom Visualisation 
+[Project Link](https://github.com/Turtle24/CustomViz)
 
 **Project At A Glance:**
 
-The first iteration was using Azure and VMs to run clusters. However, I'm moving the project over to AWS as my Azure credits depleted before I finished the project and I want to use the AWS big data fubctionality instead of running the clusters on VMs. I intend to use AWS RDS with Hive and Amazon S3.  
+End to end custom visualization exploration project. The purpose of this project is to implement an end to end project that allows me to explore visualisation libraries such as brokeh, matplotlib, plotly etc. Setting up an AWS mysql database and essentially hosting everything via technoligies such as Heroku, Google App Engine etc. Exploring html and CSS is also a motivation as I'm curious about how much you can get out of the visualisation libraries as I'm well versed in Power BI and MicroStrategy but the idea of crafting custom visuals is appealing. Finally I want to implement a basic Linear Regression model via Fast API or Flask.
 
 **Technology Used:**
 
 1. AWS 
-2. Hive
-3. Hadoop
-4. S3 & RDS
-5. Power BI
+2. Flask
+3. Python
+4. Bokeh
+5. mySQL
 
 **To-Do:**
 
-- [x] Setup AWS RDS
-- [ ] Push data into RDS
-- [ ] Setup EMR
-- [ ] ETL with Euclid 
-- [ ] Connect Power BI
+- [x] Setup mySQL Local Server
+- [x] Push data into MySQL DB
+- [x] Setup Flask
+- [x] Get Bokeh to work through Flask
+- [ ] Clean Up Implementation
 
 ## Project 4: Power BI & MicroStrategy Dashboards
 
