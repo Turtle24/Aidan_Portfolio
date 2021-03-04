@@ -5,7 +5,9 @@
 
 **Project At A Glance:**
 
-I wasn't sure what to get my mom for Christmas so I figured I'd create something with some real sentimental value for her. Essentially I pull stoic quotes from a website with beautifulsoup. I then randomize the image, quote and image effect to be used. The image effects are done with opencv and the text overlay is also performed with opencv. The image is then emailed to her via gmail. So once a week she will recieve an image via email. 
+I wasn't sure what to get my mom for Christmas so I figured I'd create something with some real sentimental value for her. Essentially I pull stoic quotes from a website with beautifulsoup. I then randomize the image, quote and image effect to be used. The image effects are done with opencv and the text overlay is also performed with opencv. The image is then emailed to her via gmail. So once a week she will recieve an image via email. I used environmental variables and gitignore to avoid revealing passwords, used OOP techniques to make the project more Pythonic as this was my first project I completely redid it. I attempted to apply a lot of what I learnt and I intend to add more functionality as time goes on and I learn more. *The timer decorator was a learning excercise but I kept it just to see how fast each run is, might come in use down the road.
+
+![GitHub Logo](/images/image14.jpg)
 
 **Python Modules:**
 
@@ -16,78 +18,66 @@ I wasn't sure what to get my mom for Christmas so I figured I'd create something
 5. TextWrapper
 6. email, smtplib, ssl
 
-**To-Do:**
+**Down The Road:**
 
-- [x] Scrape quotes from website
-- [x] Create filters 
-- [x] Apply filters and text to image
-- [x] Randomise filters and quotes
-- [x] Create email & randomise
-- [x] Automate
+- [ ] Use what I've learnt with selenium to scrape a better quotes website 
+- [ ] Use Opencv to identify who is in the pictures
+- [ ] Allow my mom to request new images via email
+- [ ] Use FastAPI to run the above functionality
+- [ ] Add more effects
 
-## Project 2: Spotify Notification App
-[Project Link](https://github.com/Turtle24/Spotify_Notify_App)
+## Project 2: Masters Group Project
+[Project Link](https://github.com/Turtle24/Covid_Analytics_Project)
 
 **Project At A Glance:**
 
-Created a desktop notification application that sends notifications every 4 hours with the latest song from my favourite artist. 
+My Masters group project, we chose covid as there's an abundance of data and research papers that we can investigate and possibly implement. Currently the project has a database setup. We've done descriptive statistics and I'm focusing on creating a semantic analysis of the vaccination tweets, next I'll do a sentiment analysis and gather more tweets of other topics to create a broader discussion. I've tested NLTK and Spacy, I intend to use both together as I've had more success with NLTK's tokenization. I'm going to test NLTK, Spacy and Sklearn's sentiment models to see what yields the best results and I'm going to use plotly to dashboard everything on a webapp. I want to create something unique that one else can replicate.
 
 **Python Modules:**
 
-1. datetime
-2. time
-3. requests
-4. player (notification)
-5. spotipy
-6. json
+1. sklearn
+2. NLTK
+3. Spacy
+4. Numpy
+5. Pandas
+6. MySQL connector
 
 **To-Do:**
 
-- [x] Pull spotify data
-- [x] Call artist data with specific artist 
-- [x] Function for reordering the artist data
-- [x] Desktop notification loop
-- [x] Only notify when there's a new song 
+- [ ] Improve data model
+- [ ] Semantic Analysis
+- [ ] Sentiment Analysis Model
+- [ ] Webapp
+- [ ] Visualisations
 
-## Project 3: Custom Visualisation 
+
+## Project 3: Custom Visualizations
 [Project Link](https://github.com/Turtle24/CustomViz)
 
 **Project At A Glance:**
 
-End to end custom visualization exploration project. The purpose of this project is to implement an end to end project that allows me to explore visualisation libraries such as brokeh, matplotlib, plotly etc. Setting up an AWS mysql database and essentially hosting everything via technoligies such as Heroku, Google App Engine etc. Exploring html and CSS is also a motivation as I'm curious about how much you can get out of the visualisation libraries as I'm well versed in Power BI and MicroStrategy but the idea of crafting custom visuals is appealing. Finally I want to implement a basic Linear Regression model via Fast API or Flask.
+I wanted to explore Bokeh, Flask and SQL to create custom visualisations. I used sklearn to run a basic regression on demo data however this project requires a bit of love and treatment as applied to the above. The data is in a local MySQL database and it's just stocks data, I intend to overhaul this over a weekend hover it isn't a priority at the moment thus I've put it on ice. I achieved my exploration goals and I am going to apply what I learnt to my Masters group project.
 
-**Technology Used:**
+![GitHub Logo](/images/bokeh.PNG)
 
-1. AWS 
+**Python Modules:**
+
+1. sklearn
 2. Flask
-3. Python
-4. Bokeh
-5. mySQL
+3. Bokeh
+4. mysql
+5. numpy
+6. pandas
 
 **To-Do:**
 
-- [x] Setup mySQL Local Server
-- [x] Push data into MySQL DB
-- [x] Setup Flask
-- [x] Get Bokeh to work through Flask
-- [ ] Clean Up Implementation
+- [ ] Use another dataset
+- [ ] Add quering on the webapp
+- [ ] Test plotly
+- [ ] Clean up visualisations
+- [ ] Allow users to login and have custom views
 
-## Project 4: Power BI & MicroStrategy Dashboards
 
-**Project At A Glance:**
-
-Created a dashbaord in Power BI with COVID-19 data I had from a group project to display what I could do with Power BI. MicroStrategy dashboard from group project.
-
-**Technology Used:**
-
-1. Power BI
-2. MicroStrategy
-
-**Dashboard Screenshot:**
-
-[PowerBI Dashboard](https://app.powerbi.com/groups/me/reports/41c0bf94-538e-4dbd-b00e-3250361e3f77?ctid=6413467b-c4fa-445e-b3b6-b5ce5e606aba)
-
-[MicroStrategy Dashboard](https://github.com/Turtle24/Aidan_Portfolio/blob/main/images/Microstrategy.png)
 
 
 
