@@ -1,6 +1,25 @@
 # Aidan_Portfolio
 
-## Project 1: Picture Filter & Quote Overlay
+## Project 1: FastAPI REST API
+[Project Link](https://github.com/Turtle24/fastapi_project)
+
+**Project At A Glance:**
+
+A FastAPI project built using a weather api and a local instance of a MySQL database in order to explore the framework. I created a database connection, created post, get, put and delete endpoints. JWT, hashing and tokens were implemented for authentication to access the weather endpoints. The project was an exploration project as I wanted to learn more about FastAPI and implement aysncio. I implemented environment variables, requirements.txt and .gitignore in order to apply good practices.
+
+![GitHub Logo](https://github.com/Turtle24/Aidan_Portfolio/blob/main/images/fastapi.jpg)
+
+**Python Modules:**
+
+1. FastAPI
+2. dotenv
+3. sqlalchemy
+4. jose
+5. pydantic
+6. starlette
+
+
+## Project 2: Picture Filter & Quote Overlay
 [Project Link](https://github.com/Turtle24/photos_opencv)
 
 **Project At A Glance:**
@@ -26,7 +45,7 @@ I wasn't sure what to get my mom for Christmas so I figured I'd create something
 - [ ] Use FastAPI to run the above functionality
 - [ ] Add more effects
 
-## Project 2: Masters Group Project
+## Project 3: Masters Group Project
 [Project Link](https://github.com/Turtle24/Covid_Analytics_Project)
 
 **Project At A Glance:**
@@ -51,7 +70,7 @@ My Masters group project, we chose covid as there's an abundance of data and res
 - [ ] Visualisations
 
 
-## Project 3: Custom Visualizations
+## Project 4: Custom Visualizations
 [Project Link](https://github.com/Turtle24/CustomViz)
 
 **Project At A Glance:**
